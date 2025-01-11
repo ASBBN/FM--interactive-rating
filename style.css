@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    font-family: 'Overpass';
+    font-size: 15px;
+    background-color: hwb(216 7% 91%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#star {
+    background-color: hsl(217, 24%, 30%);
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-top: 7px;
+    width: 25px;
+    height: 25px;
+
+}   
+p {
+    font-size: 13px;
+    color: hsl(0, 11%, 85%);;
+}
+
+.container, #ThankYou-container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    margin-top: 5%;
+    width: 230px;
+    border-radius: 10px;
+}
+
+#ThankYou-container {
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#cancelButton {
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    bottom: 30px;
+    left: 33px;
+    float: right;
+}
+
+#ThankYou-container > div {
+    margin-top: 20px;
+    background-color: hsl(217, 24%, 30%);
+    border-radius: 120px;
+    
+}
+
+#ThankYou-container > div p {
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    padding: 10px 0 10px 0; 
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btn {
+    color: hsl(0, 11%, 85%);
+    background-color: hsl(217, 24%, 30%);
+    border: 0;
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.selected {
+    background-color: hsl(0, 11%, 85%);
+    color: hsl(217, 24%, 30%);
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(217, 24%, 30%);
+}
+
+
+#btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    border-radius: 15px;
+    width: 235px;
+    padding: 7px 10px 7px 10px;
+    margin-top: 15px;
+    border: none;
+}
+
+ 
+#btn-submit:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
